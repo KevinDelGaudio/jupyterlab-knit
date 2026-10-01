@@ -1,0 +1,40 @@
+{
+  "name": "jupyterlab-knit",
+  "version": "0.6.0",
+  "description": "RStudio-style Knit button: render a notebook to HTML in a fresh kernel",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "files": [
+    "lib/**/*.{js,d.ts}",
+    "style/**/*.css"
+  ],
+  "scripts": {
+    "build": "tsc && jupyter-builder build ."
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^4.0.0",
+    "@jupyterlab/apputils": "^4.0.0",
+    "@jupyterlab/coreutils": "^6.0.0",
+    "@jupyterlab/docmanager": "^4.0.0",
+    "@jupyterlab/notebook": "^4.0.0",
+    "@jupyterlab/services": "^7.0.0",
+    "@jupyterlab/statedb": "^4.5.11",
+    "@jupyterlab/ui-components": "^4.0.0",
+    "@lumino/commands": "^2.3.4",
+    "@lumino/messaging": "^2.0.5",
+    "@lumino/widgets": "^2.9.0"
+  },
+  "devDependencies": {
+    "@jupyter/builder": "^1.2.3",
+    "@jupyterlab/core-meta": "^4.6.4",
+    "css-loader": "^7.1.5",
+    "style-loader": "^4.0.0",
+    "typescript": "~5.5.0"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "labextension"
+  }
+}

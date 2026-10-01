@@ -1,0 +1,102 @@
+.jp-knit-split {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.jp-knit-split button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 0 6px;
+  border: none;
+  border-radius: 2px;
+  background: transparent;
+  color: var(--jp-ui-font-color1);
+  font-family: var(--jp-ui-font-family);
+  font-size: var(--jp-ui-font-size1);
+  cursor: pointer;
+}
+
+.jp-knit-split button:hover {
+  background: var(--jp-layout-color2);
+}
+
+.jp-knit-split .jp-knit-main {
+  font-weight: 600;
+}
+
+.jp-knit-split .jp-knit-caret {
+  padding: 0 2px;
+}
+
+.jp-knit-icon svg,
+.jp-knit-caret svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.jp-knit-log {
+  overflow: auto;
+  padding: 4px 8px;
+  background: var(--jp-layout-color0);
+}
+
+.jp-knit-log pre {
+  margin: 0;
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  color: var(--jp-ui-font-color1);
+  white-space: pre-wrap;
+}
+
+.jp-knit-params {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 320px;
+}
+
+.jp-knit-params label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-family: var(--jp-code-font-family);
+}
+
+.jp-knit-active {
+  min-width: 640px;
+  max-width: 90vw;
+}
+
+.jp-knit-active table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--jp-ui-font-size1);
+}
+
+.jp-knit-active th,
+.jp-knit-active td {
+  padding: 4px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--jp-border-color2);
+}
+
+.jp-knit-active td:first-child {
+  font-family: var(--jp-code-font-family);
+  word-break: break-all;
+}
+
+.jp-knit-active-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.jp-knit-active-error {
+  color: var(--jp-error-color1);
+}

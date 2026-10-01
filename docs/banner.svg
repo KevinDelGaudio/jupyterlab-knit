@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#374151"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
+  <!-- yarn ball -->
+  <g transform="translate(150 130)" fill="none" stroke-linecap="round">
+    <circle r="78" fill="#f97316" stroke="#fdba74" stroke-width="4"/>
+    <g stroke="#fff7ed" stroke-width="3.5" opacity="0.85">
+      <path d="M-74 -24 C -30 -18 22 10 44 70"/>
+      <path d="M-66 -40 C -22 -32 30 -2 56 56"/>
+      <path d="M-52 -58 C -10 -46 38 -14 66 38"/>
+      <path d="M-24 -74 C -40 -26 -26 28 22 76"/>
+      <path d="M-4 -78 C -22 -28 -6 26 40 66"/>
+      <path d="M66 -42 C 34 -16 -18 -4 -76 -10"/>
+      <path d="M74 -22 C 40 4 -12 14 -72 12"/>
+      <path d="M-60 46 C -22 34 28 40 68 26"/>
+    </g>
+    <path d="M60 58 C 85 85 115 100 150 100 C 185 100 205 80 240 82" stroke="#fdba74" stroke-width="5"/>
+  </g>
+  <text x="430" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#f9fafb">jupyterlab-knit</text>
+  <text x="432" y="168" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#d1d5db">RStudio-style Knit for JupyterLab notebooks</text>
+  <text x="432" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#9ca3af">HTML · PDF · Word  ·  rendered with Quarto in a fresh process</text>
+</svg>
